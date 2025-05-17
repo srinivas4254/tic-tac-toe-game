@@ -63,4 +63,20 @@ body{
     color: white;
 }
 
+@media (max-width: 600px) {
+    .box {
+        height: 24vmin;
+        width: 24vmin;
+        font-size: 5.5vmin;
+    }
+
+    #message {
+        font-size: 7vmin;
+    }
+
+    #reset, #but {
+        width: 50vw;
+        font-size: 4.5vmin;
+    }
+}
 
